@@ -1,0 +1,42 @@
+.homeContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.homeContainer h1 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.homeContainer h1 span {
+    color: #FFEC00;
+    padding: 0 .2em;
+    background-color: #222;
+    border-radius: 5px;
+}
+
+.homeContainer p {
+    margin-bottom: 1.5em;
+    color: #7b7b7b;
+}
+
+.homeContainer img {
+    width: 350px;
+    margin: 2em 0;
+}
